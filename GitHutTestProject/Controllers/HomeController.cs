@@ -12,6 +12,7 @@ namespace GitHutTestProject.Controllers
         {
             var i = 29;
             string sja = "sja allir thetta";
+            string branch = "ekki breita";
             return View();
         }
 
