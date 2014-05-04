@@ -18,6 +18,8 @@ namespace GitHutTestProject.Controllers
         public AccountController()
             : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
         {
+            var b = "halloo";
+            var g = 299;
         }
 
         public AccountController(UserManager<ApplicationUser> userManager)

@@ -10,6 +10,7 @@ namespace GitHutTestProject.Controllers
     {
         public ActionResult Index()
         {
+            var i = 29;
             return View();
         }
 
