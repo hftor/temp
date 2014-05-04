@@ -11,6 +11,7 @@ namespace GitHutTestProject.Controllers
         public ActionResult Index()
         {
             var i = 29;
+            string sja = "sja allir thetta";
             return View();
         }
 
